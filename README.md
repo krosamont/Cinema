@@ -7,7 +7,7 @@ There are 2 csv files and a subfolder:<br>
 
 Let's describe each of these elements.
 
-### THE DATABASE
+### Database
 
 db500.csv is a database with the 500 biggest movie production budgets of Hollywood. <br>
 The database was initially made with data from [the Numbers](http://www.the-numbers.com/movie/budgets/all), then I added data from wikipedia and IMBd.
@@ -46,12 +46,12 @@ If the story comes from a book. Here the book author will be displayed.
 If the story comes from a book. Here the name of book will be displayed.    <br>
 **Production.companies** the name of the production company if there is more than just 1.<br>
 
-### TRANSACTION DATA
+### Transaction Data
 
 In the file itemGenres.csv, you will find the different combination of genres that we find in the database db500.csv. <br>
 This file has been made to use association rules with R (you can use the package `arules`).<br>
 
-### TREEMAP
+### Interactive Treemap
 
 In this folder, you will find the different composent to display an interactive treemap like [this one](https://codepen.io/wooza/pen/eeEjLw).<br><br>
 
