@@ -1,0 +1,7 @@
+#container {
+    min-width: 40%;
+    max-width: 100%;
+    min-height:50vw;
+    max-height:60vw;
+    margin: 0 auto;
+}
