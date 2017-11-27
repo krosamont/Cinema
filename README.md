@@ -53,7 +53,14 @@ This file has been made to use association rules with R (you can use the package
 
 ### Interactive Treemap
 
-In this folder, you will find the different composent to display an interactive treemap like [this one](https://codepen.io/wooza/pen/eeEjLw).<br><br>
+In this folder, you will find the different composent to display an interactive treemap like this one:<br>
+
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/treemap.js"></script>
+<div id="container3"></div>
+
+<link rel="stylesheet" href="https://raw.githubusercontent.com/krosamont/Cinema/master/treemap/css/styleSheet.css">
+<script src="https://raw.githubusercontent.com/krosamont/Cinema/master/treemap/js/cinemaTreemap.js"></script>
 
 
 Enjoy this script and if you have any issues to make it work correctly, you can always contact me via [my blog](www.blog.rdata.lu) or [my mail](mailto:kevin.rosamont@rdata.lu).
