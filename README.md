@@ -54,7 +54,6 @@ This file has been made to built association rules(you can use the package `arul
 ### Interactive Treemap
 
 In this folder, you will find the different composent to display an interactive treemap like this one:<br>
-
 <script src="https://code.highcharts.com/highcharts.js"></script>
 <script src="https://code.highcharts.com/modules/treemap.js"></script>
 <div id="container3" class="container"></div>
