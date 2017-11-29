@@ -41,7 +41,7 @@ Let´s describe the 30 variables:<br>
 **image** the url of the movie affiche from wikipedia.<br>
 **Screenplay.by**        <br>
 **Story.by** the name of the person that wrote the original story of the movie. <br>
-If the story comes from a book. Here the book author will be displayed. <br>
+If the story comes from a book, the book author will be displayed. <br>
 **Based.on**  the name of the original story. <br>
 **Production.companies** the name of the production company if there is more than just 1.<br>
 
