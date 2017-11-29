@@ -34,14 +34,14 @@ Let´s describe the 30 variables:<br>
 **Release.date**  the release date from wikipedia<br>
 **Running.time** the length of movie in minutes from wikipedia<br>
 **Country**  the country where the movie was produce<br>
-**Language** The original language of the movie from wikipedia<br>
+**Language** the original language of the movie from wikipedia<br>
 **Budget** the production budget in dollars from wikipedia <br>
-**Box.office** The box office (worldwide gross revenue) in dollars from wikipedia<br>
-**wikiUrl** The wikipedia url from wikipedia<br>
+**Box.office** the box office (worldwide gross revenue) in dollars from wikipedia<br>
+**wikiUrl** the wikipedia url from wikipedia<br>
 **image** the url of the movie affiche from wikipedia<br>
 **Screenplay.by**        <br>
 **Story.by** the name of the person that wrote the original (story). <br>
-If the story comes from a book. Here the book author will be displayed.
+If the story comes from a book. Here the book author will be displayed. <br>
 **Based.on**  the name of the original story. <br>
 If the story comes from a book. Here the name of book will be displayed.    <br>
 **Production.companies** the name of the production company if there is more than just 1.<br>
@@ -49,7 +49,7 @@ If the story comes from a book. Here the name of book will be displayed.    <br>
 ### Transaction Data
 
 In the file itemGenres.csv, you will find the different combination of genres that we find in the database db500.csv. <br>
-This file has been made to use association rules with R (you can use the package `arules`).<br>
+This file has been made to built association rules(you can use the package `arules` in R).<br>
 
 ### Interactive Treemap
 
@@ -57,7 +57,7 @@ In this folder, you will find the different composent to display an interactive 
 
 <script src="https://code.highcharts.com/highcharts.js"></script>
 <script src="https://code.highcharts.com/modules/treemap.js"></script>
-<div id="container3"></div>
+<div id="container3" class="container"></div>
 
 <link rel="stylesheet" href="https://raw.githubusercontent.com/krosamont/Cinema/master/treemap/css/styleSheet.css">
 <script src="https://raw.githubusercontent.com/krosamont/Cinema/master/treemap/js/cinemaTreemap.js"></script>
