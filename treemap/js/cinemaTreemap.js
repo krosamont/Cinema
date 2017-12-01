@@ -2134,7 +2134,7 @@ var data = {
 
 for (genre1 in data) {
     if (data.hasOwnProperty(genre1)) {
-      
+
         genre1Val = 0;
         genre1P = {
             id: 'id_' + genre1I,
@@ -2143,7 +2143,7 @@ for (genre1 in data) {
         };
       // console.log("genre1P:");
       // console.log(genre1P);
-      
+
         genre2I = 0;
         for (genre2 in data[genre1]) {
             if (data[genre1].hasOwnProperty(genre2)) {
@@ -2164,14 +2164,14 @@ for (genre1 in data) {
                     parent: genre2P.id
                 };
                 points.push(movieP);
-              
+
       //         console.log("movieP:");
       // console.log(movieP);
                 worldI = 0;
                 for (world in data[genre1][genre2][movie]) {
                     if (data[genre1][genre2][movie].hasOwnProperty(world)) {
-                      
-                           
+
+
                         worldP = {
                             id:  movieP.id + '_' + worldI,
                             name: worldName[world],
@@ -2184,10 +2184,10 @@ for (genre1 in data) {
                         genre1Val += worldP.value;
                         points.push(worldP);
                         worldI = worldI + 1;
-                      
+
                     }
                 }
-              
+
 
                 movieI = movieI + 1;
             }
@@ -2195,7 +2195,7 @@ for (genre1 in data) {
       // console.log("genre2P+ val");
       // console.log(genre2P);
         genre2I = genre2I + 1;
-             
+
         }
         }
 
@@ -2207,7 +2207,7 @@ for (genre1 in data) {
     }
 }
 
- $('.container').each(function(){
+ $('.tmap').each(function(){
         var chart = new Highcharts.Chart({
   chart: {
     renderTo: this
@@ -2248,4 +2248,3 @@ for (genre1 in data) {
     }
 });
          });
-    
