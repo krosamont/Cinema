@@ -2201,8 +2201,8 @@ for (genre1 in data) {
 
         genre1P.value = Math.round(genre1Val);
         points.push(genre1P);
-      console.log("genre1P+ val");
-      console.log(genre1P);
+      //console.log("genre1P+ val");
+      //console.log(genre1P);
         genre1I = genre1I + 1;
     }
 }
