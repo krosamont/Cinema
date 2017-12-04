@@ -1,16 +1,16 @@
 #tmp1 {
     min-width: 40%;
-    max-width: 80%;
-    min-height:50vw;
-    max-height:60vw;
+    max-width: 85%;
+    min-height:60vw;
+    max-height:80vw;
     margin: 0 auto;
 }
 
 #tmp2 {
     min-width: 40%;
     max-width: 100%;
-    min-height:50vw;
-    max-height:75vw;
+    min-height:60vw;
+    max-height:88vw;
     margin: 0 auto;
 }
 
